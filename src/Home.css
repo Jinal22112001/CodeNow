@@ -1,0 +1,124 @@
+.popup_cnt > h2 {
+	text-align: center;
+	padding: 1.2rem;
+	color: #251b37;
+}
+
+.popup_cnt > div {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.3rem;
+}
+
+.popup_cnt button {
+	margin: 1rem;
+	background-color: #372948;
+	border: 1px solid #372948;
+	color: white;
+	padding: 0.45rem 1rem;
+	transition: all 0.4s;
+}
+.popup_cnt button:hover {
+	border: 1px solid #372948;
+	background-color: #ffecef;
+	color: #251b37;
+}
+
+.popup_cnt label {
+	color: #372948;
+}
+.popup_cnt option {
+	background-color: #ffecef;
+}
+
+.popup_cnt select {
+	background-color: #ffecef;
+}
+
+@media screen and (max-width: 900px) {
+	.popup_cnt > h2 {
+		padding: 1.3rem;
+		font: 400 2rem Arial;
+	}
+	.popup_cnt > div {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0.7rem;
+	}
+	.popup_cnt button {
+		font: 400 1.5rem Arial;
+		margin: 1rem;
+		border: 1px solid #372948;
+		color: white;
+		padding: 0.7rem 1rem;
+	}
+	.popup_cnt label {
+		font: 400 1.5rem Arial;
+	}
+	.popup_cnt select {
+		font: 400 1.5rem Arial;
+	}
+	.popup_cnt option {
+		font: 400 1.5rem Arial;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.popup_cnt > h2 {
+		padding: 0.9rem;
+		font: 400 1.5rem Arial;
+	}
+	.popup_cnt > div {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0.7rem;
+	}
+	.popup_cnt button {
+		font: 400 0.9rem Arial;
+		margin: 0.35rem;
+		border: 1px solid #372948;
+		color: white;
+		padding: 0.6rem 0.8rem;
+	}
+	.popup_cnt label {
+		font: 400 0.9rem Arial;
+	}
+	.popup_cnt select {
+		font: 400 0.9rem Arial;
+	}
+	.popup_cnt option {
+		font: 400 0.9rem Arial;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	.popup_cnt > h2 {
+		padding: 0.6rem;
+		font: 400 1.2rem Arial;
+	}
+	.popup_cnt > div {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0.5rem;
+	}
+	.popup_cnt button {
+		font: 400 0.7rem Arial;
+		margin: 0.2rem;
+		border: 1px solid #372948;
+		color: white;
+		padding: 0.4rem 0.6rem;
+	}
+	.popup_cnt label {
+		font: 400 0.6rem Arial;
+	}
+	.popup_cnt select {
+		font: 400 0.6rem Arial;
+	}
+	.popup_cnt option {
+		font: 400 0.6rem Arial;
+	}
+}
